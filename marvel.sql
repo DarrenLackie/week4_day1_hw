@@ -55,7 +55,7 @@ SELECT * FROM movies;
 -- 2
 SELECT name FROM people;
 -- 3
-UPDATE people SET name = 'Krusty The Clown' WHERE name = 'Crusty the Clown';
+UPDATE people SET name = 'Krusty The Clown' WHERE id = 13;
 -- 4
 SELECT name FROM people WHERE id = 1;
 -- 5
